@@ -1,0 +1,19 @@
+{
+  "name": "random-otp-generator",
+  "version": "1.0.0",
+  "description": "random-otp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikumar-gadde/Random-OTP-generator.git"
+  },
+  "author": "Saikumar gadde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saikumar-gadde/Random-OTP-generator/issues"
+  },
+  "homepage": "https://github.com/Saikumar-gadde/Random-OTP-generator#readme"
+}
