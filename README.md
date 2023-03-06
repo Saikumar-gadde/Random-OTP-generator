@@ -34,9 +34,9 @@ console.log(otp); // Example output: "svprna"
 ### Arguments
 The randomOtp function takes in two arguments:
 
-`length` (optional): The length of the OTP to be generated. Defaults to 4 if not specified.
+```length``` (optional): The length of the OTP to be generated. Defaults to 4 if not specified.
 #### `options` (optional): An object that can contain the following properties:
 
-`alpha` (boolean): If true, the generated OTP will return alphabet letters.
-`lower` (boolean): If true, the generated OTP will include lowercase letters.
+```alpha``` (boolean): If true, the generated OTP will return alphabet letters.
+```lower``` (boolean): If true, the generated OTP will include lowercase letters.
 The `randomOtp` function returns a randomly generated OTP as a string.
