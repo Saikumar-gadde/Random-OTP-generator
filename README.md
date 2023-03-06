@@ -20,6 +20,12 @@ const otp = randomOtp();
 
 console.log(otp);  //Example output: "5172"
 
+//You can also specify length of the OTP
+
+const otp = randomOtp(6);
+
+console.log(otp) // Example output : "517141"
+
 ````
 
 #### You can also pass in an optional options object to customize the generated OTP:
