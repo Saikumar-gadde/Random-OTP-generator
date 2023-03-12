@@ -1,6 +1,6 @@
 {
   "name": "random-otp-generator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "random-otp-generator",
   "main": "index.js",
   "keywords": [
