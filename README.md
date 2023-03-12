@@ -37,12 +37,31 @@ const otp = randomOtp(6, { alpha: true, lower: true });
 console.log(otp); // Example output: "svprna" 
 ````
 
+````Javascript
+// Generate a 6-character OTP consisting alphabets and numbers;
+const otp = randomOtp(6, { alphaNum: true });
+
+console.log(otp); // Example output: K8WZT1
+````
+
+````Javascript
+// Generate a 6-character OTP consisting of lowercase letters;
+const otp = randomOtp(6, { specialChars: true });
+
+console.log(otp); // Example output: ^&*@#$
+````
+
 ### Arguments
 The randomOtp function takes in two arguments:
 
 ```length``` (optional): The length of the OTP to be generated. Defaults to 4 if not specified.
 #### `options` (optional): An object that can contain the following properties:
 
-```alpha``` (boolean): If true, the generated OTP will return alphabet letters.
-```lower``` (boolean): If true, the generated OTP will include lowercase letters.
-The `randomOtp` function returns a randomly generated OTP as a string.
+List of available options
+
+```lower```: Set to true to convert generated OTP to lowercase.
+```alpha```: Set to true to generate alphabetic OTP (upper-case).
+```specialChars```: Set to true to generate special character based OTP.
+```alphaNum```: Set to true to generate OTP with alpha-numeric characters.
+### Development
+This project uses JavaScript as the programming language. It has no external dependencies.
