@@ -45,7 +45,7 @@ console.log(otp); // Example output: K8WZT1
 ````
 
 ````Javascript
-// Generate a 6-character OTP consisting of lowercase letters;
+// Generate a 6-character OTP consisting of special chars;
 const otp = randomOtp(6, { specialChars: true });
 
 console.log(otp); // Example output: ^&*@#$
